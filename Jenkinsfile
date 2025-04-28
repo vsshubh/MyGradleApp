@@ -11,6 +11,7 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/vsshubh/MyGradleApp.git'
             }
         }
+    }    
 
         stage('Build') {
             steps {
